@@ -19,6 +19,7 @@ type TxIndex struct {
 
 // VMContext is the context of vm
 type VMContext struct {
-	WorkerIdx int64 `mapstructure:"worker"` // WorkerIdx is the index of worker
-	VMIdx     int64 `mapstructure:"vm"`     // VMIdx is the index of vm
+	WorkerIdx int64 `mapstructure:"worker"`   // WorkerIdx is the index of worker
+	VMIdx     int64 `mapstructure:"vm"`       // VMIdx is the index of vm
+	Accounts  int64 `mapstructure:"accounts"` // Accounts is the count of acutal test accounts
 }

@@ -80,6 +80,11 @@ func (b *BlockchainBase) LogStatus() (int64, error) {
 	return 0, nil
 }
 
+// GetRandomAccount get random account.
+func (b *BlockchainBase) GetRandomAccount() string {
+	return ""
+}
+
 // NewBlockchainBase new blockchain base.
 func NewBlockchainBase(clientConfig ClientConfig) *BlockchainBase {
 	return &BlockchainBase{
