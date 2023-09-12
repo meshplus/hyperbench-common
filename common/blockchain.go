@@ -41,4 +41,7 @@ type Blockchain interface {
 
 	// LogStatus records blockheight and time
 	LogStatus() (int64, error)
+
+	// GetRandomAccount get random account
+	GetRandomAccount() string
 }

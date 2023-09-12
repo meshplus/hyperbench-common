@@ -35,6 +35,7 @@ const (
 	EngineDurationPath = "engine.duration"
 	EngineCapPath      = "engine.cap"
 	EngineURLsPath     = "engine.urls"
+	EngineAccountsPath = "engine.accounts"
 )
 
 // client
