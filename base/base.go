@@ -80,8 +80,13 @@ func (b *BlockchainBase) LogStatus() (int64, error) {
 	return 0, nil
 }
 
-// GetRandomAccount get random account.
-func (b *BlockchainBase) GetRandomAccount() string {
+// GetRandomAccountByGroup get random account by group.
+func (b *BlockchainBase) GetRandomAccountByGroup() string {
+	return ""
+}
+
+// GetRandomAccount get random account except addr.
+func (b *BlockchainBase) GetRandomAccount(addr string) string {
 	return ""
 }
 
