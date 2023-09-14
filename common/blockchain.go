@@ -47,4 +47,7 @@ type Blockchain interface {
 
 	// GetRandomAccountByGroup get random account by group
 	GetRandomAccountByGroup() string
+
+	// GetContractAddrByName get contract address by contract name
+	GetContractAddrByName(contractName string) string
 }
